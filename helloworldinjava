@@ -1,0 +1,18 @@
+import java.lang.*;
+import java.util.Scanner;
+
+public class Helloworld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a;
+		Scanner sc = new Scanner(System.in);
+		a = sc.nextInt();
+		if(a==1) {
+			System.out.println("Hello World!");
+		}
+		else
+			System.out.println("No output");
+	}
+
+}
